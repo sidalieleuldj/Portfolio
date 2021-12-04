@@ -7,7 +7,16 @@
     <link rel="stylesheet" href="./tailwind.css" />
     <title>My Protflio</title>
   </head>
-  <body class="m-12">
+
+  <body class="m-8 px-32">
+    <nav class="flex justify-between pb-6 border-b">
+      <h1 class="text-3xl font-bold">LOGO</h1>
+      <ul class="flex">
+        <li class="px-4"><a href="/index.html">Home</a></li>
+        <li class="px-4"><a href="/project.html">Project</a></li>
+        <li class="px-4"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
     <h1 class="py-6 text-3xl font-bold">Contact Me</h1>
     <div class="flex items-center">
       <img width="40px" src="./img/location.png" alt="adresse" />
@@ -21,7 +30,7 @@
       <img width="40px" src="./img/email (2).png" alt="email" />
       <span class="px-8">sidali.eleuldj@gmail.com</span>
     </div>
-    <footer class="flex flex-col">
+    <form class="flex flex-col">
       <input
         class="border border-black mt-4 p-4"
         type="text"
@@ -32,15 +41,8 @@
         type="text"
         placeholder="email"
       />
-      <textarea
-        class="border border-black mt-4 p-4"
-        name=""
-        id=""
-        cols="30"
-        rows="10"
-      ></textarea
-      >
-    </footer>
+      <textarea class="border border-black mt-4 p-4" placeholder="your message"></textarea>
+    </form>
     <p>Powered by S.Eleuldj</p>
   </body>
 </html>
