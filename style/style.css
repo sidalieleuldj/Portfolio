@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.list-none{
+    list-style: none;
+}
+
+.mr-16{
+    margin-right: 1rem;
+}
+
+.j-ar{
+    justify-content: space-around;
+}
+
+.j-b{
+    justify-content: space-between;
+}
+
+
+.pl-50{
+    padding-left: 50px;
+}
+
+.pr-50{
+    padding-right: 50px;
+}
+
+.pt-16{
+    padding-top: 1rem;
+}
+
+.pb-16{
+    padding-bottom: 1rem;
+}
